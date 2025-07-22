@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us | Gen AI Speakers Toastmasters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Gen AI Speakers</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="members.html">Members</a>
+                <a href="join.html" class="active">Join Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="https://us06web.zoom.us/j/83477652840?pwd=JFF5iwPuNbY9EmKTienUesTkb73yke.1" class="btn-outline" target="_blank">Join Zoom</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Join Hero -->
+    <section class="speech-hero" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');">
+        <div class="speech-hero-content">
+            <h1>Become a Member</h1>
+            <p>Join the forefront of AI-enhanced public speaking</p>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="container">
+        <div class="section">
+            <h2 class="section-title">Why Join Gen AI Speakers?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Integration</h3>
+                    <p>Learn to use cutting-edge AI tools to enhance your speeches and presentations.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Skill Development</h3>
+                    <p>Improve both your public speaking and AI literacy simultaneously.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p>Connect with like-minded professionals interested in AI and communication.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Toastmasters Path</h3>
+                    <p>Follow the traditional Toastmasters education path with an AI twist.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Process -->
+    <section class="container">
+        <div class="section">
+            <h2 class="section-title">How to Join</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Attend a Meeting</h3>
+                        <p>Visit us as a guest to experience our unique AI-enhanced format.</p>
+                        <a href="https://us06web.zoom.us/j/83477652840?pwd=JFF5iwPuNbY9EmKTienUesTkb73yke.1" class="btn btn-outline" target="_blank">Join Next Meeting</a>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Complete Application</h3>
+                        <p>Fill out our membership application form below.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Pay Dues</h3>
+                        <p>Submit the semi-annual Toastmasters membership fee ($60).</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Get Started</h3>
+                        <p>Receive your New Member Kit and begin your journey!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="container">
+        <div class="section">
+            <h2 class="section-title">Membership Application</h2>
+            <form class="membership-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="experience">Toastmasters Experience (if any)</label>
+                    <select id="experience" name="experience">
+                        <option value="none">None</option>
+                        <option value="former">Former Member</option>
+                        <option value="current">Current Member (other club)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ai-experience">AI/Technology Experience</label>
+                    <textarea id="ai-experience" name="ai-experience" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="goals">What do you hope to achieve by joining?</label>
+                    <textarea id="goals" name="goals" rows="3" required></textarea>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to abide by Toastmasters International policies and the Gen AI Speakers Club bylaws</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="members.html">Members</a>
+            <a href="join.html">Join Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <p>Gen AI Speakers Toastmasters Club | Club #28679006</p>
+        <p>© 2025 All Rights Reserved</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
